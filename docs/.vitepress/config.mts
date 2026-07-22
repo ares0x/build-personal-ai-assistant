@@ -22,24 +22,15 @@ export default defineConfig({
                 text: "开始",
                 items: [
                     { text: "00. 前言", link: "/00-前言" },
-                    {
-                        text: "01. 项目定位与架构设计",
-                        link: "/01-项目定位与架构设计",
-                    },
+                    { text: "01. 项目定位与架构设计", link: "/01-项目定位与架构设计" },
                     { text: "02. 基础脚手架搭建", link: "/02-基础脚手架搭建" },
                 ],
             },
             {
                 text: "核心实现",
                 items: [
-                    {
-                        text: "03. Phase 1：最小可用核心",
-                        link: "/03-最小可用核心",
-                    },
-                    {
-                        text: "04. Phase 2：分层 Memory",
-                        link: "/04-分层Memory",
-                    },
+                    { text: "03. 最小可用核心", link: "/03-最小可用核心" },
+                    { text: "04. 分层 Memory", link: "/04-分层Memory" },
                     { text: "05. 交互式 CLI", link: "/05-交互式CLI" },
                     { text: "06. 代码重构实践", link: "/06-代码重构实践" },
                 ],
@@ -49,7 +40,10 @@ export default defineConfig({
                 items: [
                     { text: "07. 接入真实 LLM", link: "/07-接入真实LLM" },
                     { text: "08. Skills 系统", link: "/08-Skills系统" },
-                    // 后续章节继续添加
+                    { text: "09. 持久化与 Session 管理", link: "/09-持久化与Session管理" },
+                    { text: "10. 多渠道支持", link: "/10-多渠道支持" },
+                    { text: "11. 权限安全与可扩展性", link: "/11-权限安全与可扩展性" },
+                    { text: "12. 总结与后续演进", link: "/12-总结与后续演进" },
                 ],
             },
         ],
