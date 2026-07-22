@@ -14,7 +14,7 @@
 
 我正在开发一款属于自己的个人 AI 助理（hachimi）。
 
-在这个过程中，我把底层最关键的部分——**Harness（缰绳）**的设计与实现过程整理成了这份教程。
+在这个过程中，我把底层最关键的部分——**Harness**的设计与实现过程整理成了这份教程。
 
 本教程重点讲解：
 
@@ -54,3 +54,7 @@
 pnpm install
 pnpm docs:dev
 ```
+
+## 致谢
+
+感谢 [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)，它帮助我更深入地理解了 Harness 的概念与设计思想。

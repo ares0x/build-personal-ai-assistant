@@ -34,11 +34,11 @@ export default defineConfig({
                 items: [
                     {
                         text: "03. Phase 1：最小可用核心",
-                        link: "/03-Phase1-最小可用核心",
+                        link: "/03-最小可用核心",
                     },
                     {
                         text: "04. Phase 2：分层 Memory",
-                        link: "/04-Phase2-分层Memory",
+                        link: "/04-分层Memory",
                     },
                     { text: "05. 交互式 CLI", link: "/05-交互式CLI" },
                     { text: "06. 代码重构实践", link: "/06-代码重构实践" },
