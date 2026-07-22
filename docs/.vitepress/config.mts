@@ -9,7 +9,7 @@ export default defineConfig({
     themeConfig: {
         // 顶部导航
         nav: [
-            { text: "教程", link: "/00-前言" },
+            { text: "教程", link: "/l1/00-前言" },
             {
                 text: "GitHub",
                 link: "https://github.com/ares0x/build-personal-ai-assistant",
@@ -19,31 +19,22 @@ export default defineConfig({
         // 侧边栏
         sidebar: [
             {
-                text: "开始",
+                text: "L1: 基础核心篇 (Harness 101)",
+                collapsed: false,
                 items: [
-                    { text: "00. 前言", link: "/00-前言" },
-                    { text: "01. 项目定位与架构设计", link: "/01-项目定位与架构设计" },
-                    { text: "02. 基础脚手架搭建", link: "/02-基础脚手架搭建" },
-                ],
-            },
-            {
-                text: "核心实现",
-                items: [
-                    { text: "03. 最小可用核心", link: "/03-最小可用核心" },
-                    { text: "04. 分层 Memory", link: "/04-分层Memory" },
-                    { text: "05. 交互式 CLI", link: "/05-交互式CLI" },
-                    { text: "06. 代码重构实践", link: "/06-代码重构实践" },
-                ],
-            },
-            {
-                text: "进阶",
-                items: [
-                    { text: "07. 接入真实 LLM", link: "/07-接入真实LLM" },
-                    { text: "08. Skills 系统", link: "/08-Skills系统" },
-                    { text: "09. 持久化与 Session 管理", link: "/09-持久化与Session管理" },
-                    { text: "10. 多渠道支持", link: "/10-多渠道支持" },
-                    { text: "11. 权限安全与可扩展性", link: "/11-权限安全与可扩展性" },
-                    { text: "12. 总结与后续演进", link: "/12-总结与后续演进" },
+                    { text: "00. 前言", link: "/l1/00-前言" },
+                    { text: "01. 项目定位与架构设计", link: "/l1/01-项目定位与架构设计" },
+                    { text: "02. 基础脚手架搭建", link: "/l1/02-基础脚手架搭建" },
+                    { text: "03. 最小可用核心", link: "/l1/03-最小可用核心" },
+                    { text: "04. 分层 Memory", link: "/l1/04-分层Memory" },
+                    { text: "05. 交互式 CLI", link: "/l1/05-交互式CLI" },
+                    { text: "06. 代码重构实践", link: "/l1/06-代码重构实践" },
+                    { text: "07. 接入真实 LLM", link: "/l1/07-接入真实LLM" },
+                    { text: "08. Skills 系统", link: "/l1/08-Skills系统" },
+                    { text: "09. 持久化与 Session 管理", link: "/l1/09-持久化与Session管理" },
+                    { text: "10. 多渠道支持", link: "/l1/10-多渠道支持" },
+                    { text: "11. 权限安全与可扩展性", link: "/l1/11-权限安全与可扩展性" },
+                    { text: "12. 总结与后续演进", link: "/l1/12-总结与后续演进" },
                 ],
             },
         ],

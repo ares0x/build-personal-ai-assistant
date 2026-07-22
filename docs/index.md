@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /00-前言
+      link: /l1/00-前言
     - theme: alt
       text: 查看 GitHub
       link: https://github.com/ares0x/build-personal-ai-assistant
