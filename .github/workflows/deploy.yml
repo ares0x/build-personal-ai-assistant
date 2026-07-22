@@ -1,42 +1,37 @@
 name: Deploy VitePress site to Pages
 
 on:
-    # 当推送到 main 分支时自动触发
     push:
         branches: [main]
-    # 允许在 Actions 页面手动触发
     workflow_dispatch:
 
-# 设置权限
 permissions:
     contents: read
     pages: write
     id-token: write
 
-# 同一时间只允许一个部署任务
 concurrency:
     group: pages
     cancel-in-progress: false
 
 jobs:
-    # 构建任务
     build:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # 如果需要 git 信息（最后更新时间）
+                  fetch-depth: 0
 
+            # 使用 package.json 中声明的 packageManager 版本（推荐）
             - name: Setup pnpm
               uses: pnpm/action-setup@v4
-              with:
-                  version: 9
+              # 注意：这里不再写 version，让它自动读取 package.json 的 packageManager 字段
 
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
-                  node-version: 20
+                  node-version: 22 # 使用目前更稳妥的 LTS
                   cache: pnpm
 
             - name: Install dependencies
@@ -50,7 +45,6 @@ jobs:
               with:
                   path: docs/.vitepress/dist
 
-    # 部署任务
     deploy:
         environment:
             name: github-pages
