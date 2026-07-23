@@ -2,9 +2,13 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
     base: "/",
-    title: "hachimi | 从零构建个人 AI 助理 Harness 实战教程",
-    description: "从零构建个人 AI 助理 Harness（控制缰绳）的极简 TS 实战教程，演示 Agent Loop、分层 Memory 记忆机制与 Lazy Skills 系统设计。",
+    title: "hachimi",
+    titleTemplate: ":title | hachimi",
+    description: "用 TypeScript 从零开发个人 AI 助理，覆盖 Agent 控制循环、分层记忆、Skills 系统设计。适合想理解 AI Agent 底层原理的开发者。",
     lang: "zh-CN",
+    sitemap: {
+        hostname: "https://hachimi.sanage.xyz"
+    },
     head: [
         [
             "script",
@@ -17,6 +21,26 @@ export default defineConfig({
              function gtag(){dataLayer.push(arguments);}
              gtag('js', new Date());
              gtag('config', 'G-MZNN3ZCCFJ');`
+        ],
+        [
+            "meta",
+            { property: "og:title", content: "hachimi | 从零构建个人 AI 助理" }
+        ],
+        [
+            "meta",
+            { property: "og:description", content: "用 TypeScript 从零开发个人 AI 助理，覆盖 Agent 控制循环、分层记忆、Skills 系统设计。" }
+        ],
+        [
+            "meta",
+            { property: "og:image", content: "https://hachimi.sanage.xyz/og-image.jpg" }
+        ],
+        [
+            "meta",
+            { property: "og:url", content: "https://hachimi.sanage.xyz" }
+        ],
+        [
+            "meta",
+            { name: "twitter:card", content: "summary_large_image" }
         ]
     ],
 

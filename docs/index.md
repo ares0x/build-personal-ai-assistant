@@ -1,8 +1,9 @@
 ---
 layout: home
 title: hachimi | 从零构建个人 AI 助理 Harness 实战教程
-description: 从零构建个人 AI 助理 Harness（控制缰绳）的极简 TS 实战教程，演示 Agent Loop、分层 Memory 记忆机制与 Lazy Skills 系统设计。
-keywords: AI Agent, Harness, TypeScript, hachimi, AI 助理, 大模型开发, Agent 缰绳, 教程
+titleTemplate: false
+description: 用 TypeScript 从零开发个人 AI 助理，覆盖 Agent 控制循环、分层记忆、Skills 系统设计。适合想理解 AI Agent 底层原理的开发者。
+keywords: AI Agent 教程, 从零构建 AI 助理, TypeScript Agent 开发, 个人 AI 助理开发教程, hachimi
 
 hero:
   name: hachimi Tutorial

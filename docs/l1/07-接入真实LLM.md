@@ -1,5 +1,5 @@
 ---
-title: 07. 接入真实大模型：原生 fetch 实现 OpenAI 与 DeepSeek 协议 | hachimi 教程
+title: 07. 接入真实大模型：原生 fetch 实现 OpenAI 与 DeepSeek 协议
 description: 本章讲解在不引入任何第三方依赖包的情况下，使用原生 fetch 自行封装标准 Chat Completions API 请求与工具调用（Tool Calls）参数映射。
 keywords: 接入大模型, OpenAI 协议, DeepSeek API, 原生 fetch, Tool Calling, 接口封装
 ---

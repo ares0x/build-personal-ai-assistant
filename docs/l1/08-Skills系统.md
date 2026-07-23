@@ -1,5 +1,5 @@
 ---
-title: 08. Skills 系统：系统 Prompt 的惰性加载与设计 | hachimi 教程
+title: 08. Skills 系统：系统 Prompt 的惰性加载与设计
 description: 本章详解 Agent 的 Skills（技能）系统骨架设计，演示如何通过 Lazy Skills 惰性加载机制只在 Prompt 中暴露技能大纲描述，节约 Token 消耗。
 keywords: Skills 系统, 技能注册表, Lazy Skills, 惰性加载, System Prompt, Token 节约
 ---

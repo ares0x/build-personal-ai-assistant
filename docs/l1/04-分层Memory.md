@@ -1,5 +1,5 @@
 ---
-title: 04. 分层 Memory 记忆机制与检索 | hachimi 教程
+title: 04. 分层 Memory 记忆机制与检索
 description: 本章讲解个人 AI 助理的长期与短期记忆分层架构，演示基于规则匹配与重要度排序的轻量级启发式记忆检索与本地持久化实现。
 keywords: AI Agent, Harness 缰绳, 分层记忆, MemoryManager, Context 注入, 启发式检索
 ---
