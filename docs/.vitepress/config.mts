@@ -37,6 +37,13 @@ export default defineConfig({
                     { text: "12. 总结与后续演进", link: "/l1/12-总结与后续演进" },
                 ],
             },
+            {
+                text: "L2: 进阶实战篇 (Harness 201)",
+                collapsed: false,
+                items: [
+                    { text: "Phase A：Harness 地基", link: "/l2/地基" },
+                ],
+            },
         ],
 
         // 社交链接
