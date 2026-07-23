@@ -1,3 +1,9 @@
+---
+title: L2 Phase A. Harness 地基重构与测试 | hachimi 教程
+description: 本章讲解 hachimi 从实验脚本向可维护运行时的重构过程，详细涵盖配置统一、存储解耦、上下文独立组装、工具权限设计与 Vitest 自动化单元测试。
+keywords: L2 地基重构, Config 模块, Storage 协议, ContextBuilder, 工具权限, 单元测试, TUI
+---
+
 # Phase A：Harness 地基
 
 ## 本章目标

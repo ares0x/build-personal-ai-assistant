@@ -1,10 +1,24 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-    base: "/build-personal-ai-assistant/",
-    title: "build-personal-ai-assistant",
-    description: "从零构建个人 AI 助理 Harness 的实战教程",
+    base: "/",
+    title: "hachimi | 从零构建个人 AI 助理 Harness 实战教程",
+    description: "从零构建个人 AI 助理 Harness（控制缰绳）的极简 TS 实战教程，演示 Agent Loop、分层 Memory 记忆机制与 Lazy Skills 系统设计。",
     lang: "zh-CN",
+    head: [
+        [
+            "script",
+            { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-MZNN3ZCCFJ" }
+        ],
+        [
+            "script",
+            {},
+            `window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+             gtag('config', 'G-MZNN3ZCCFJ');`
+        ]
+    ],
 
     themeConfig: {
         // 顶部导航

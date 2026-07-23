@@ -1,3 +1,9 @@
+---
+title: 09. 消息持久化与 Session 多会话管理 | hachimi 教程
+description: 本章讲解个人 AI 助理中 Memory（记忆）与 Session（短期会话历史）的边界与划分，并基于本地多 JSON 文件实现跨会话重启恢复与保存。
+keywords: 消息持久化, SessionManager, 多会话切换, 会话恢复, 本地 JSON 读写
+---
+
 # 09. 持久化与 Session 管理
 
 ## 本章目标

@@ -1,3 +1,9 @@
+---
+title: 05. 交互式 CLI 控制台与斜杠指令拦截 | hachimi 教程
+description: 本章讲解使用 Node.js 的 readline/promises 模块搭建与 Agent 核心交互的终端对话接口，并编写 /remember 等 Slash 命令过滤器。
+keywords: 交互式 CLI, readline, Slash 命令, 会话清空, 命令行 Agent, 交互终端
+---
+
 # 05. 交互式 CLI
 
 ## 目标
