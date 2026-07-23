@@ -2,7 +2,7 @@
 
 ## 本章目标
 
-在 L1 阶段，我们成功使用极简的原生代码验证了 Agent 核心循环、分层 Memory 记忆、交互式 CLI 以及 OpenAI 兼容 Provider。然而，L1 仅仅是一个验证概念（POC）的 Demo：所有的配置散落在 `process.env` 中，存储直接读写文件系统（不利于单元测试），System Prompt 的拼装逻辑与 Agent 主体高度耦合，难以维护。
+在 L1 阶段，我们成功使用极简的原生代码验证了 Agent 核心循环、分层 Memory 记忆、交互式 CLI 以及 OpenAI 兼容 Provider。然而，L1 仅仅是一个验证概念（POC）的 Demo：所有的配置散落在 `env` 中，存储直接读写文件系统（不利于单元测试），System Prompt 的拼装逻辑与 Agent 主体高度耦合，难以维护。
 
 进入 L2 阶段的第一部分（**Phase A：Harness 地基**），我们的核心目标是将 L1 阶段的实验代码升级为**模块清晰、高可维护、高可观测的运行时基座**。
 
@@ -141,10 +141,10 @@ export interface JsonDirStore {
 // packages/core/src/memory/manager.ts
 export class MemoryManager {
   constructor(
-    private filePath: string, 
+    private filePath: string,
     private store: JsonFileStore = new FileJsonStore()
   ) {}
-  
+
   load() {
     const data = this.store.read<MemoryData>(this.filePath, { ... });
     // ...
